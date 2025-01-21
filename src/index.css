@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #030100;
+    font-family: Outfit;
+    /* #8a3d1e */
+}

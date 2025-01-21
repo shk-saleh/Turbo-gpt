@@ -1,0 +1,26 @@
+.helloText{
+    background: -webkit-linear-gradient(45deg, #fca31ea4, #04ffc9ec);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.loading{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #e4e3e3;
+    animation: blink .6s infinite ease-in-out;
+}
+
+@keyframes blink {
+    0%{
+        background: #ffffff; 
+    }
+    100%{
+        background: #7e7e7e; 
+    }
+}
+
+.main-area::-webkit-scrollbar {
+    display: none;
+}
