@@ -34,18 +34,18 @@ const Main = () => {
                     <i class="ri-lightbulb-flash-line text-3xl"></i>
                     <p>Explain the Latest Trends in the Web Development..</p>
                 </div>
-                <div className='bg-stone-800 text-stone-400 rounded-lg w-auto p-2 cursor-pointer hover:bg-stone-900'> 
+                <div className='max-[450px]:hidden bg-stone-800 text-stone-400 rounded-lg w-auto p-2 cursor-pointer hover:bg-stone-900'> 
                     <i class="ri-mental-health-line text-3xl"></i>
                     <p>How to improve the physical health by perfroming simple ..</p>
                 </div>
-                <div className='bg-stone-800 text-stone-400 rounded-lg w-auto p-2 cursor-pointer hover:bg-stone-900'> 
+                <div className='max-[450px]:hidden bg-stone-800 text-stone-400 rounded-lg w-auto p-2 cursor-pointer hover:bg-stone-900'> 
                     <i class="ri-compass-line text-3xl"></i>
                     <p>Suggest beautiful places to visit on this holidays..</p>
                 </div>        
             </div>
         </div>
         : 
-        <div className='w-full ps-24 pe-36 overflow-scroll main-area max-h-80'>
+        <div className='w-full ps-24 pe-36 max-[450px]:px-10 overflow-scroll main-area max-h-80'>
             <div className='w-100 flex justify-end'><p className='bg-yellow-900 text-stone-100 text-center rounded-2xl py-2 px-6 mb-10'>{prevPrompt}</p></div>
             <div className='flex flex-row content-center gap-6 align-middle'>
                 <span><i class="ri-bard-fill text-yellow-500 text-2xl"></i></span>
