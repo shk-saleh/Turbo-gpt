@@ -11,7 +11,7 @@ const Main = () => {
 
   return (
     // wrapper
-    <div className='w-[100%]  flex flex-col justify-between items-start'>
+    <div className='w-[100%] h-[96vh] flex flex-col justify-between items-start'>
         {/* navbar */}
         <div className='w-full h-10 flex justify-between text-white mt-4 px-4'>
             <h3 className='text-3xl'>Turbo</h3>
@@ -45,7 +45,7 @@ const Main = () => {
             </div>
         </div>
         : 
-        <div className='w-full ps-24 pe-36 max-[450px]:px-10 overflow-scroll main-area max-h-80'>
+        <div className='w-full ps-24 pe-36 max-[450px]:px-8 overflow-scroll main-area max-h-80'>
             <div className='w-100 flex justify-end'><p className='bg-yellow-900 text-stone-100 text-center rounded-2xl py-2 px-6 mb-10'>{prevPrompt}</p></div>
             <div className='flex flex-row content-center gap-6 align-middle'>
                 <span><i class="ri-bard-fill text-yellow-500 text-2xl"></i></span>
